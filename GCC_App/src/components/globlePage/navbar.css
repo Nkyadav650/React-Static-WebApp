@@ -1,0 +1,54 @@
+
+.navbarBrand {
+color: rgb(244, 237, 237);
+display: flex;
+text-align:end;
+justify-content: space-around;
+}
+
+
+.navbar-wrapper{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+.navbar-wrapper .navbar{
+    /* width: 1200px; */
+    max-width: 100%;
+    margin: 0 auto;
+    transition: 0.2s all ease-in-out;
+}
+.navbar-wrapper.container{
+    transition: 0.2s all ease-in-out;
+}
+.navbar-wrapper.container.scrolled{
+    max-width: 100%;
+    margin: 0 auto;
+    transition: 0.2s all ease-in-out;
+}
+.navbar-wrapper.container .navbar.scrolled{
+    width: 100%;
+    max-width: 100%;
+}
+.navbar-brand {
+    display: none;
+}
+.navbar-wrapper .navbar.scrolled{
+    padding: 0;
+}
+.navbar-wrapper .navbar.scrolled .navbar-brand{
+    display: block;
+    padding-right:150px;
+}
+.navbar-wrapper .navbar .navbar-collapse .navbar-nav li.nav-item a.nav-link{
+    color: #fff;
+    padding: 6px 25px;
+    
+}
+/* Add styles for smaller screens */
+@media (max-width: 992px) {
+    .navbar-wrapper {
+      display: none;
+    }
+}

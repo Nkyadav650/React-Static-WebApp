@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+
+}
+
+.viewImage-multifamilyhomes {
+    display: inline;
+    border-spacing: 2px;
+}
+
+.contact_us {
+    text-align: center;
+    margin-top: 20px;
+    color: brown;
+}
+
+.phone_headquarter {
+    display: flex;
+    margin-top: 30px;
+   margin-left: 40px;
+    padding: 10px 20px;
+    padding-top: 20px;
+   
+}
+
+.contact-form input {
+    margin: 10px 0px;
+}
+
+.contact-form {
+    margin: 0% 10%;
+    padding: 0px 20px;
+   
+}
+
+.contact-form button {
+    color: white;
+    margin-top: 10px;
+margin-left: 60%;
+}
+
+.contact-form button:hover {
+    color: white;
+    background-color: blue;
+
+}
+
+.social_contact {
+    margin: 0px 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, rgb(4, 1, 61) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    
+    color: white;
+}
