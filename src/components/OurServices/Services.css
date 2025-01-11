@@ -1,14 +1,14 @@
 .our-services-h3 h3 {
-   color: orangered;
+    color: orangered;
     text-align: center;
-   margin-top: 40px;
+    margin-top: 40px;
 }
 
 .our-services {
     display: flex;
     justify-content: space-around;
     margin: 50px;
-   }
+}
 
 .our-services p {
     margin: 10px 20px;
@@ -33,7 +33,7 @@
 
 .building-design {
     text-align: center;
-   color: orangered;
+    color: orangered;
     margin-top: 40px;
 }
 
@@ -41,12 +41,11 @@
     display: flex;
     justify-content: space-around;
     margin: 30px 130px;
-   
+
 }
 
 .building-design1 p {
     padding: 50px;
-
 }
 
 .building-design1 :hover {
@@ -54,20 +53,22 @@
     color: aliceblue;
 
 }
+
 .building-design1 img:hover {
     transform: scale(1.02);
     transition: 0.2s all ease-in-out;
     overflow: hidden;
 }
+
 .construction-consultant {
     text-align: center;
-     color: orangered;
-     margin-top: 40px;
+    color: orangered;
+    margin-top: 40px;
 }
 
 .construction-consultant1 {
     text-align: justify;
-     margin: 30px 130px;
+    margin: 30px 130px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -83,11 +84,16 @@
     padding-top: 40px;
 }
 
-.general-contracting {
+.general-contracting,
+.green-building h3,
+.house-renovation-service-h3,
+.laminate-flooring, .metal-roofing {
+    text-align: center;
     background-color: orange;
 }
 
-.general-contracting h3 {
+.general-contracting h3,
+h4 {
     text-align: center;
 }
 
@@ -108,10 +114,7 @@
     padding: 30px;
 }
 
-.green-building h3 {
-    text-align: center;
-    background-color: orange;
-}
+
 
 .green-building-img {
 
@@ -124,20 +127,17 @@
     text-indent: 40px;
 }
 
-.green-building-img1 {
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+.green-building-img1,
+.metal-roofing-img1 {
     padding-left: 13px;
 }
 
-.green-building-img1 img {
+.green-building-img1 img,
+.metal-roofing-img1 img {
     margin: 20px 5px;
+    border: 2px solid black;
 }
 
-.house-renovation-service-h3 {
-    text-align: center;
-    background-color: orange;
-    padding: 1px;
-}
 
 .house-renovation-service {
     text-align: center;
@@ -148,54 +148,43 @@
 }
 
 .house-renovation-service p {
-    padding: 20px ;
+    padding: 20px;
     text-align: justify;
 }
-.house-renovation-service h3{
+
+.house-renovation-service h3 {
     margin-top: 50px;
 }
-.laminate-flooring{
-    text-align: center;
-    background-color: orange;
-    padding: 1px;
-}
-.laminate-flooring1 p:first-child{
+
+.laminate-flooring1 p:first-child {
     margin-top: 10px;
     padding: 10px;
     text-align: justify;
     text-indent: 40px;
 }
-.laminate-flooring-img{
+
+.laminate-flooring-img {
     margin: 30px 0px;
     margin-left: 15%;
 }
-.laminate-flooring-img1{
+
+.laminate-flooring-img1 {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
     padding-left: 13px;
 }
+
 .laminate-flooring-img1 img {
     margin: 20px 5px;
 }
-.metal-roofing{
-    text-align: center;
-    background-color: orange;
-    padding: 1px;
-}
-.metal-roofing1 p:first-child{
+
+.metal-roofing1 p:first-child {
     margin-top: 10px;
     padding: 10px;
     text-align: justify;
     text-indent: 40px;
 }
-.metal-roofing-img{
+
+.metal-roofing-img {
     margin: 30px 0px;
     margin-left: 15%;
-}
-.metal-roofing-img1{
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
-    padding-left: 13px;
-    background-color: cornflowerblue;
-}
-.metal-roofing-img1 img {
-    margin: 20px 5px;
 }

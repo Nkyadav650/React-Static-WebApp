@@ -42,20 +42,6 @@ const GreenBuilding = () => {
             <img src={Image.greenbuilding2} alt='Error' width="250px" height="250" />
             <img src={Image.greenbuilding5} alt='Error' width="250px" height="250" />
           </div><br />
-
-          <div className='green-building-img1'>
-            <img src={Image.greenbuilding1} alt='Error' width="250px" height="250" />
-            <img src={Image.greenbuilding4} alt='Error' width="250px" height="250" />
-            <img src={Image.greenbuilding2} alt='Error' width="250px" height="250" />
-            <img src={Image.greenbuilding5} alt='Error' width="250px" height="250" />
-          </div> <br />
-
-          <div className='green-building-img1'>
-            <img src={Image.greenbuilding1} alt='Error' width="250px" height="250" />
-            <img src={Image.greenbuilding4} alt='Error' width="250px" height="250" />
-            <img src={Image.greenbuilding2} alt='Error' width="250px" height="250" />
-            <img src={Image.greenbuilding5} alt='Error' width="250px" height="250" />
-          </div><br />
         </div>
 
 

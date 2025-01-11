@@ -38,19 +38,6 @@ const MetalRoofing = () => {
             <img src={Image.metalroofing4} alt='Error' width="250px" height="250" />
           </div><br/>
 
-          <div className='metal-roofing-img1'>
-            <img src={Image.MetalRoofong1} alt='Error' width="250px" height="250" />
-            <img src={Image.MetalRoofong2} alt='Error' width="250px" height="250" />
-            <img src={Image.MetalRoofong3} alt='Error' width="250px" height="250" />
-            <img src={Image.HouseHallRenovation} alt='Error' width="250px" height="250" />
-          </div><br/>
-
-          <div className='metal-roofing-img1'>
-            <img src={Image.MetalRoofong1} alt='Error' width="250px" height="250" />
-            <img src={Image.MetalRoofong2} alt='Error' width="250px" height="250" />
-            <img src={Image.MetalRoofong3} alt='Error' width="250px" height="250" />
-            <img src={Image.HouseHallRenovation} alt='Error' width="250px" height="250" />
-          </div><br/>
         </div>
       </MainServices>
     </div>

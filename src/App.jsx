@@ -26,7 +26,6 @@ import GreenBuilding from './components/OurServices/GreenBuilding';
 import House_Renovation from './components/OurServices/House_Renovation';
 import LaminateFlooring from './components/OurServices/LaminateFlooring';
 import MetalRoofing from './components/OurServices/MetalRoofing';
-import Shop from './components/Shop/Shop';
 function App() {
 
   return (
@@ -38,7 +37,6 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/image' element={<ViewImage />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/shop' element={<Shop />} />
 
           {/* About */}
           <Route path='/about' element={<About />} />

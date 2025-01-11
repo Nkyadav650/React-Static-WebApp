@@ -39,7 +39,6 @@ const WhyChooseUs = () => {
                                     Your satisfaction is our top priority, and we'll go above and beyond to ensure your renovation experience is smooth, enjoyable, and hassle-free.
                                 </p>
                             </div>
-
                         </div>
 
                         <div className="about-whyChoose1">
@@ -53,10 +52,7 @@ const WhyChooseUs = () => {
                                 </p>
                             </div>
                         </div>
-
                     </div>
-
-
 
                     <div className="home-whyChoose">
                         <div className="about-whyChoose1">

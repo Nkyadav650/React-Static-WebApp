@@ -35,7 +35,7 @@ const GccNavbar = () => {
 
 
   return (
-    <div className={`navbar-wrapper container ${scroll ? "main-header scrolled" : "main-header " }`}>
+    <div className={`navbar-wrapper container ${scroll ? "main-header scrolled" : "main-header "}`}>
       <Navbar
         style={{ background: "#0c1f38" }} light expand="lg" >
         <NavbarBrand >
@@ -102,7 +102,7 @@ const GccNavbar = () => {
                   <b>Category</b>
                 </DropdownToggle>
                 <DropdownMenu className='ends-bar'>
-                <DropdownItem tag={ReactLink} to="/category" >All Category</DropdownItem>
+                  <DropdownItem tag={ReactLink} to="/category" >All Category</DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem tag={ReactLink} to="/commercial" >Commercial Cunstruction</DropdownItem>
                   <DropdownItem divider />
@@ -119,27 +119,14 @@ const GccNavbar = () => {
               </UncontrolledDropdown>
             </NavItem>
             <NavItem>
-              <NavLink tag={ReactLink} to="/shop"><b>Shops</b></NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink tag={ReactLink} to="/contact"><b>Contact</b></NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag={ReactLink} to="/image"><b>View Image</b></NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown} isOpen={isDropdownOpen}>
-              <DropdownToggle nav caret>
-                <b>More</b>
-              </DropdownToggle>
-              <DropdownMenu right className='end'>
-                <DropdownItem tag={ReactLink} to="/image">View Image</DropdownItem>
-                <DropdownItem tag={ReactLink} to="/contact">Contact</DropdownItem>
-                <DropdownItem divider />
-              
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            
             <NavItem>
-              <NavLink tag={ReactLink} to="/image" style={{marginLeft:"370px",display:"none"}}><b>Mob:- &nbsp; +91 7879634456</b></NavLink>
+              <NavLink tag={ReactLink} to="/image" style={{ marginLeft: "370px", display: "none" }}><b>Mob:- &nbsp; +91 7879634456</b></NavLink>
             </NavItem>
           </Nav>
         </div>

@@ -18,7 +18,7 @@ import MultiFamilyHomes3 from "./MultiFamilyHomes3.jpg";
 import facebooklogo from './facebook.png';
 import instagramlogo from './instagram.png';
 import TwitterXlogo from './TwitterXlogo.png';
-import GClogo from './GClogo.png';
+
 import BrandLogo from './brand_logo.png';
 import OfficeBuilding from "./OfficeBuilding1.avif";
 import ConstructionVector1 from './construction-vector-png.png';
@@ -45,10 +45,6 @@ import RoadAndBridgeConstruction from './roadAndbrdgeConstruction.jpg';
 import RoadAndBridgeConstruction1 from './roadAndbrdgeConstruction1.jpg';
 import TIlesInstallment from './TilesInstallment.png';
 import HotelConstruction from './HotelConstruction.jpg';
-import UnderConstruction from "./UnderConstruction.jpg";
-import UnderConstruction1 from "./UnderConstruction1.jpg";
-import UnderConstruction2 from "./UnderConstruction2.jpg";
-import UnderConstruction3 from "./UnderConstruction3.jpg";
 import BuildingLot from './building-lot-.jpg';
 import HeaderImage from './HeaderImage.jpg';
 import Renovation from './Renovation1.jpg';
@@ -138,7 +134,6 @@ import commercialconstruction1 from './commercialconstruction1-27.jpg';
 
 import WhatsAppLogo from './whatsappLogo.png';
 const Image = {
-    GClogo: GClogo,
 
     metalroofing5:metalroofing5,
     metalroofing4:metalroofing4,
@@ -231,7 +226,7 @@ const Image = {
     RoadAndBridgeConstruction1: RoadAndBridgeConstruction1,
     TIlesInstallment: TIlesInstallment,
     HotelConstruction: HotelConstruction,
-    UnderConstruction: UnderConstruction,
+    
     Bangalow1:Bangalow1,
     Bangalow2:Bangalow2,
     MetalRoofing:MetalRoofing,
@@ -278,9 +273,6 @@ const Image = {
     SingleFamilyHome1: SingleFamilyHome1,
     SingleFamilyHome2: SingleFamilyHome2,
     twitterXlogo: TwitterXlogo,
-    UnderConstruction1: UnderConstruction1,
-    UnderConstruction2: UnderConstruction2,
-    UnderConstruction3: UnderConstruction3,
     WhatsAppLogo: WhatsAppLogo,
 
 }

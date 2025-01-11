@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+
+}
+
+.contact_us {
+    text-align: center;
+    margin-top: 20px;
+    color: brown;
+}
+
+.phone_headquarter {
+    display: flex;
+    margin-top: 30px;
+   margin-left: 40px;
+    padding: 10px 20px;
+    padding-top: 20px;
+   
+}
+
+.contact-form input {
+    margin: 10px 0px;
+}
+
+.contact-form {
+    margin: 0% 10%;
+    padding: 0px 20px;
+   
+}
+
+.contact-form button {
+    color: white;
+    margin-top: 10px;
+margin-left: 60%;
+}
+
+.contact-form button:hover {
+    color: white;
+    background-color: blue;
+
+}
+
+.social_contact {
+    margin: 0px 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, rgb(4, 1, 61) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    
+    color: white;
+}
+
+/* ViewImage.css (or global styles) */
+.portfolio-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.portfolio-container h2 {
+    font-size: 36px;
+    color: #003366;
+    margin-bottom: 40px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.1);
+}

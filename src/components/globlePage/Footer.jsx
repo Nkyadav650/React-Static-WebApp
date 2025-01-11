@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
 
-      <div>
+      <div class="footer-container">
         <div class="footer">
           <div class="footer-section">
             <h4>Services</h4>
